@@ -90,7 +90,7 @@ Not_Canceled    24390
 Canceled        11885
 ````
 ### Reserva por meses y años
-![im](graph\M2\1-.png)
+![im](graph/M2/1-.png)
 
 - El gráfico muestra un aumento gradual en las reservas no canceladas a medida que avanza el año, con un pico significativo hacia diciembre.
 Las cancelaciones parecen ser constantes y relativamente bajas en comparación con las reservas no canceladas.
@@ -103,7 +103,7 @@ Las decisiones basadas únicamente en este gráfico podrían ser sesgadas para l
 
 ### Reserva por meses
 
-![im](graph\M2\1.png)
+![im](graph/M2/1.png)
 
 - Las reservas no canceladas (línea naranja) superan significativamente a las canceladas (línea azul) durante todo el año, lo cual es un patrón positivo para la hotelería en términos de ocupación efectiva.
 - El pico en las reservas no canceladas se encuentra alrededor de octubre, mientras que las cancelaciones también registran un número significativo en este período. Esto puede indicar una alta demanda que podría estar acompañada por políticas de flexibilidad en cancelaciones.
@@ -111,7 +111,7 @@ Las decisiones basadas únicamente en este gráfico podrían ser sesgadas para l
 ### Evolución de la reserva por meses
 Este gráfico muestra la cantidad de reservas canceladas y no canceladas por mes, extendiéndose desde mediados de 2017 hasta finales de 2018. Esta visualización permite observar tendencias a lo largo del tiempo en cuanto al comportamiento de las reservas.
 
-![im](graph\M2\1--.png)
+![im](graph/M2/1--.png)
 
 - Estacionalidad y Planeación: El gráfico respalda que existe un patrón estacional en el comportamiento de las reservas, particularmente hacia mediados de 2018, que debe considerarse en la planificación operativa.
 - Cancelaciones Fluctuantes: Las fluctuaciones en las cancelaciones son un área crítica para investigar, ya que impactan en la capacidad del hotel de maximizar la ocupación.
@@ -120,7 +120,7 @@ Este gráfico muestra la cantidad de reservas canceladas y no canceladas por mes
 ### Precio promedio por tipo de habitacion
 Este gráfico es un diagrama de cajas (boxplot) que representa la distribución del precio promedio por habitación para diferentes tipos de habitaciones. Cada caja visualiza la variabilidad del precio de las habitaciones en función de su tipo, permitiendo comparar las diferencias entre categorías
 
-![im](graph\M2\2.png)
+![im](graph/M2/2.png)
 
 - Comparación de Medianas:
 
@@ -139,7 +139,7 @@ Este gráfico es un diagrama de cajas (boxplot) que representa la distribución 
 ### Reserva por tipo de habitaciones
 Este gráfico es un histograma que muestra la cantidad de reservas para cada tipo de habitación.
 
-![im](graph\M2\3.png)
+![im](graph/M2/3.png)
 
 - Demanda Desproporcionada:
 La mayoría abrumadora de las reservas se concentra en el Tipo de Habitación 1, indicando que esta categoría es significativamente más popular o más disponible que los otros tipos de habitaciones.
@@ -154,7 +154,7 @@ Esto podría ser indicativo de varias situaciones, como menor disponibilidad, pr
 ### Verificacion de correlacion
 **Mapa de Calor**
 
-![image](graph\M2\4.png)
+![image](graph/M2/4.png)
 
 **Correlaciones Positivas Fuertes:**
 
