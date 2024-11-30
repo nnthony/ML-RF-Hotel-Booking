@@ -120,16 +120,22 @@ Las reservas de ambos hoteles se concentran en Europa, la particularidad para el
 |              | USA     | United States     | 407   |
 
 **Origen de visitas al City Hotel**
-![image](graph\M1\1country.png)
+
+![image](graph/M1/1country.png)
+
 **Origen de visitas al Resort Hotel**
-![image](graph\M1\1country-.png)
+
+![image](graph/M1/1country-.png)
 
 ### Tipo de habitaciones reservadas
 Existe una considerable superioridad en la demanda de habitaciones de tipo A, el segundo tipo, con amplia diferencia con el primero es el tipo D, seguido del tipo E.
-![image](graph\M1\1.png)
+
+![image](graph/M1/1.png)
+
 ### ADR y Tipo de Habitacion
 Las tasas diarias promedio para el Resort Hotel (en azul) tienden a ser más altas que las del City Hotel (en anaranjado) para la mayoría de los tipos de habitaciones. Sin embargo, hay variaciones dependiendo del tipo específico de habitación.
-![image](graph\M1\2.png)
+
+![image](graph/M1/2.png)
 
 
 La dispersión y la presencia de valores atípicos varían entre los tipos de habitaciones y los tipos de hoteles, sugiriendo diversidad en la demanda y el precio.
@@ -138,21 +144,27 @@ Todos los valores atípicos, indicados por puntos individuales fuera de los lím
 
 ### Reserva por tipo de habitación en los años
 Este gráfico es un histograma que muestra la cantidad de reservas por tipo de habitación reservada, desglosado por año de llegada (2015, 2016 y 2017).
-![image](graph\M1\3.png)
+
+![image](graph/M1/3.png)
+
 Este desglose proporciona una visión de cómo las reservas han evolucionado anualmente para cada tipo de habitación.
 - El tipo de habitación A es claramente el más popular durante todos los años, con un número significativamente mayor de reservas en comparación con los otros tipos de habitaciones. Este patrón se mantiene constante en los tres años observados.
 - Hay una ligera variabilidad en las reservas para el tipo de habitación A entre los años, pero sigue siendo dominante.
 - Los otros tipos de habitaciones (B, C, D, etc.) tienen un número mucho menor de reservas, con algunas variaciones año tras año. En particular, se observa un aumento pequeño en las reservas de algunos tipos de habitaciones en 2016 y 2017 en comparación con 2015.
 ### Reserva por meses durante los años
 Este gráfico es un histograma que presenta la cantidad de reservas por mes de llegada, desglosado por año de llegada
-![image](graph\M1\4.png)
+
+![image](graph/M1/4.png)
+
 - Se observa que para algunos meses no hay datos para todos los años. Por ejemplo, falta información para 2015 en Enero, Marzo, Noviembre y Diciembre, lo que indica que los datos no están completos para todos los meses de cada año en el conjunto de datos.
 - Los meses de verano (Junio, Julio, Agosto) muestran un volumen más alto de reservas, lo cual es común en la industria hotelera ya que coincide con las vacaciones de verano en muchas regiones.
 - Las reservas son bastante constantes en algunos meses del año, lo que podría indicar una temporada constante de demanda, mientras que picos en algunos meses indican períodos de alta demanda.
 La ausencia de datos en algunos meses para ciertos años sugiere que el conjunto de datos no es completo para 2015, 2016 y 2017. Esto podría limitar los resultados y obliga a considerar otros factores diferentes a los años.
 ### Reserva por meses de los hoteles
 Este gráfico es un conjunto de histogramas que muestra la cantidad de reservas por mes y año diferenciado por tipo de hotel: City Hotel y Resort Hotel. 
-![image](graph\M1\5.png)
+
+![image](graph/M1/5.png)
+
 - City Hotel presenta un patrón consistente durante todo el año, con reservas relativamente uniformes, aunque con ciertas fluctuaciones.
 - Los meses de otoño e invierno (desde septiembre hasta diciembre) tienden a mostrar un volumen ligeramente más alto de reservas en comparación con meses anteriores, especialmente en 2016 y 2017.
 - El número de reservas para Resort Hotel es generalmente menor que para City Hotel, probablemente debido a la naturaleza estacional y al segmento de mercado diferente del resort.
@@ -160,7 +172,9 @@ Este gráfico es un conjunto de histogramas que muestra la cantidad de reservas 
 Resort Hotel experimenta picos de demanda durante el verano, posiblemente reflejando su función como destino vacacional.
 ### Reservas por mes
 Este gráfico es una gráfica de líneas que muestra la cantidad de llegadas por mes, proporcionando una visión clara de la evolución de las llegadas a lo largo del tiempo. 
-![image](graph\M1\6.png)
+
+![image](graph/M1/6.png)
+
 Al no contar con datos completos para todos los meses de cada año (2015, 2016, y 2017), algunas tendencias pueden estar sesgadas. Por ejemplo, si no hay datos para ciertos meses en algunos años, la media de llegadas durante esos meses estará subestimada o mal representada.
 - La representación de un patrón estacional basado en un conjunto de datos incompletos podría no reflejar con precisión la realidad. Las fluctuaciones observadas podrían, de hecho, ser un artefacto de los datos faltantes, en lugar de una tendencia estacional genuina.
 - Al combinar datos incompletos de múltiples años, se pierde la capacidad de realizar un análisis comparativo de las tendencias de llegadas entre los años. Esto puede ocultar cambios significativos de tendencia o anomalías que podrían haber ocurrido en un año específico.
@@ -169,7 +183,9 @@ Para abordar este problema, sería ideal segmentar los datos según los años di
 ## Procesamiento de Datos
 ### Verificacion de correlacion
 **Mapa de Calor**
-![image](graph\M1\7.png)
+
+![image](graph/M1/7.png)
+
 `**Correlaciones Fuertes:**
 
 - ``is_canceled`` y ``lead_time``: Hay una correlación positiva significativa (0.30) entre la tasa de cancelación y el tiempo de anticipación (lead time). Esto sugiere que las reservas realizadas con mucho tiempo de antelación son más propensas a ser canceladas.
